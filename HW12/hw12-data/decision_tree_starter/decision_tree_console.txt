@@ -1,0 +1,311 @@
+"C:\Program Files\Python36\python.exe" D:/360Sync/OneDrive/Berkeley/MachineLearning/Spring2018/HW/HW12/hw12-data/decision_tree_starter/decision_tree_starter.py
+
+
+Part (b): preprocessing the titanic dataset \\
+Features: [b'pclass', b'sex', b'age', b'sibsp', b'parch', b'ticket', b'fare', b'cabin', b'embarked', b'sex-male', b'sex-female', b'embarked-S', b'embarked-C', b'embarked-Q'] \\
+Train/test size: (999, 14) (310, 14) \\
+
+
+Part 0: constant classifier \\
+Accuracy \[
+\begin{bmatrix}
+  0.6136136136136137\\
+\end{bmatrix}
+\] \\
+
+
+simplified decision tree \\
+Accuracy \[
+\begin{bmatrix}
+  0.7967967967967968\\
+\end{bmatrix}
+\] \\
+
+
+sklearn's decision tree \\
+Cross validation \[
+\begin{bmatrix}
+  0.7994012 & 0.78378378 & 0.8313253\\
+\end{bmatrix}
+\] \\
+Accuracy \[
+\begin{bmatrix}
+  0.8048048048048049\\
+\end{bmatrix}
+\] \\
+
+
+BaggedTrees on titanic \\
+Cross validation \[
+\begin{bmatrix}
+  0.79640719 & 0.77177177 & 0.8253012\\
+\end{bmatrix}
+\] \\
+The most common splits at the root node of the tree are:  \\
+1. ("sex-male")\textless 0.5 (52 trees) \\
+2. ("sex-female")\textless 0.5 (48 trees) \\
+Accuracy \[
+\begin{bmatrix}
+  0.8048048048048049\\
+\end{bmatrix}
+\] \\
+
+
+RandomForest on titanic \\
+Cross validation \[
+\begin{bmatrix}
+  0.79341317 & 0.77477477 & 0.82228916\\
+\end{bmatrix}
+\] \\
+The most common splits at the root node of the tree are:  \\
+1. ("sex-male")\textless 0.5 (27 trees) \\
+2. ("sex-female")\textless 0.5 (14 trees) \\
+3. ("embarked-S")\textless 0.5 (10 trees) \\
+4. ("pclass")\textless 2.5 (9 trees) \\
+5. ("parch")\textless 0.5 (9 trees) \\
+6. ("pclass")\textless 1.5 (4 trees) \\
+7. ("age")\textless -0.416649997234 (3 trees) \\
+8. ("fare")\textless 51.9312515259 (3 trees) \\
+9. ("fare")\textless 15.1729001999 (3 trees) \\
+10. ("embarked-C")\textless 0.5 (3 trees) \\
+11. ("fare")\textless 15.6604499817 (2 trees) \\
+12. ("sibsp")\textless 3.5 (2 trees) \\
+13. ("fare")\textless 15.6646003723 (1 trees) \\
+14. ("fare")\textless 26.2666511536 (1 trees) \\
+15. ("sibsp")\textless 0.5 (1 trees) \\
+16. ("embarked-Q")\textless 0.5 (1 trees) \\
+17. ("fare")\textless 15.1457996368 (1 trees) \\
+18. ("sibsp")\textless 2.5 (1 trees) \\
+19. ("age")\textless -0.166649997234 (1 trees) \\
+20. ("fare")\textless 9.49164962769 (1 trees) \\
+21. ("fare")\textless 8.83749961853 (1 trees) \\
+22. ("fare")\textless 15.6458501816 (1 trees) \\
+23. ("fare")\textless 75.7708511353 (1 trees) \\
+Accuracy \[
+\begin{bmatrix}
+  0.7967967967967968\\
+\end{bmatrix}
+\] \\
+
+
+BoostedRandomForest on titanic \\
+Cross validation \[
+\begin{bmatrix}
+  0.76047904 & 0.73573574 & 0.78313253\\
+\end{bmatrix}
+\] \\
+The most common splits at the root node of the tree are:  \\
+1. ("sex-male")\textless 0.5 (12 trees) \\
+2. ("embarked-S")\textless 0.5 (9 trees) \\
+3. ("embarked-Q")\textless 0.5 (9 trees) \\
+4. ("sex-female")\textless 0.5 (8 trees) \\
+5. ("parch")\textless 2.5 (6 trees) \\
+6. ("pclass")\textless 1.5 (5 trees) \\
+7. ("sibsp")\textless 0.5 (4 trees) \\
+8. ("parch")\textless 0.5 (3 trees) \\
+9. ("fare")\textless 51.9312515259 (3 trees) \\
+10. ("sibsp")\textless 2.5 (3 trees) \\
+11. ("parch")\textless 1.5 (3 trees) \\
+12. ("age")\textless 36.75 (2 trees) \\
+13. ("embarked-C")\textless 0.5 (2 trees) \\
+14. ("fare")\textless 224.652099609 (2 trees) \\
+15. ("fare")\textless 254.947906494 (2 trees) \\
+16. ("age")\textless 62.5 (2 trees) \\
+17. ("age")\textless -0.416649997234 (1 trees) \\
+18. ("sibsp")\textless 4.5 (1 trees) \\
+19. ("parch")\textless 3.5 (1 trees) \\
+20. ("parch")\textless 3.0 (1 trees) \\
+21. ("fare")\textless 7.13334989548 (1 trees) \\
+22. ("fare")\textless 135.066650391 (1 trees) \\
+23. ("pclass")\textless 2.5 (1 trees) \\
+24. ("age")\textless 44.5 (1 trees) \\
+25. ("fare")\textless 58.5750007629 (1 trees) \\
+26. ("age")\textless -0.291649997234 (1 trees) \\
+27. ("age")\textless 30.75 (1 trees) \\
+28. ("fare")\textless 12.8062496185 (1 trees) \\
+29. ("parch")\textless 4.5 (1 trees) \\
+30. ("age")\textless 43.5 (1 trees) \\
+31. ("fare")\textless 28.2000007629 (1 trees) \\
+32. ("fare")\textless 136.206253052 (1 trees) \\
+33. ("fare")\textless 234.649993896 (1 trees) \\
+34. ("fare")\textless 7.23960018158 (1 trees) \\
+35. ("fare")\textless 15.1478996277 (1 trees) \\
+36. ("fare")\textless 15.6208496094 (1 trees) \\
+37. ("fare")\textless 36.8770980835 (1 trees) \\
+38. ("age")\textless 18.75 (1 trees) \\
+39. ("fare")\textless 149.035400391 (1 trees) \\
+40. ("age")\textless 0.958350002766 (1 trees) \\
+41. ("age")\textless 41.5 (1 trees) \\
+Accuracy \[
+\begin{bmatrix}
+  0.8248248248248249\\
+\end{bmatrix}
+\] \\
+Features: ['pain', 'private', 'bank', 'money', 'drug', 'spam', 'prescription', 'creative', 'height', 'featured', 'differ', 'width', 'other', 'energy', 'business', 'message', 'volumes', 'revision', 'path', 'meter', 'memo', 'planning', 'pleased', 'record', 'out', 'semicolon', 'dollar', 'sharp', 'exclamation', 'parenthesis', 'square\_bracket', 'ampersand'] \\
+Train/test size: (5172, 32) (5857, 32) \\
+
+
+Part 0: constant classifier \\
+Accuracy \[
+\begin{bmatrix}
+  0.7099767981438515\\
+\end{bmatrix}
+\] \\
+
+
+simplified decision tree \\
+Accuracy \[
+\begin{bmatrix}
+  0.7948569218870842\\
+\end{bmatrix}
+\] \\
+
+
+sklearn's decision tree \\
+Cross validation \[
+\begin{bmatrix}
+  0.71113689 & 0.72157773 & 0.71287703\\
+\end{bmatrix}
+\] \\
+Accuracy \[
+\begin{bmatrix}
+  0.7211910286156226\\
+\end{bmatrix}
+\] \\
+
+
+BaggedTrees on spam \\
+Cross validation \[
+\begin{bmatrix}
+  0.72563805 & 0.73259861 & 0.73723898\\
+\end{bmatrix}
+\] \\
+The most common splits at the root node of the tree are:  \\
+1. ("meter")\textless 0.5 (10 trees) \\
+2. ("money")\textless 0.5 (9 trees) \\
+3. ("volumes")\textless 0.5 (8 trees) \\
+4. ("featured")\textless 0.5 (8 trees) \\
+5. ("exclamation")\textless 0.5 (7 trees) \\
+6. ("spam")\textless 0.5 (7 trees) \\
+7. ("parenthesis")\textless 0.5 (6 trees) \\
+8. ("pain")\textless 0.5 (6 trees) \\
+9. ("creative")\textless 0.5 (5 trees) \\
+10. ("prescription")\textless 0.5 (5 trees) \\
+11. ("ampersand")\textless 0.5 (4 trees) \\
+12. ("bank")\textless 0.5 (4 trees) \\
+13. ("dollar")\textless 1.5 (3 trees) \\
+14. ("differ")\textless 0.5 (3 trees) \\
+15. ("sharp")\textless 1.5 (3 trees) \\
+16. ("private")\textless 0.5 (2 trees) \\
+17. ("dollar")\textless 0.5 (2 trees) \\
+18. ("other")\textless 0.5 (2 trees) \\
+19. ("path")\textless 0.5 (1 trees) \\
+20. ("drug")\textless 0.5 (1 trees) \\
+21. ("energy")\textless 0.5 (1 trees) \\
+22. ("height")\textless 0.5 (1 trees) \\
+23. ("width")\textless 0.5 (1 trees) \\
+24. ("out")\textless 2.5 (1 trees) \\
+Accuracy \[
+\begin{bmatrix}
+  0.7310518174787317\\
+\end{bmatrix}
+\] \\
+
+
+RandomForest on spam \\
+Cross validation \[
+\begin{bmatrix}
+  0.79756381 & 0.80742459 & 0.77958237\\
+\end{bmatrix}
+\] \\
+The most common splits at the root node of the tree are:  \\
+1. ("money")\textless 0.5 (15 trees) \\
+2. ("meter")\textless 0.5 (15 trees) \\
+3. ("exclamation")\textless 0.5 (13 trees) \\
+4. ("pain")\textless 0.5 (8 trees) \\
+5. ("volumes")\textless 0.5 (8 trees) \\
+6. ("parenthesis")\textless 0.5 (7 trees) \\
+7. ("ampersand")\textless 0.5 (6 trees) \\
+8. ("featured")\textless 0.5 (5 trees) \\
+9. ("dollar")\textless 0.5 (4 trees) \\
+10. ("prescription")\textless 0.5 (4 trees) \\
+11. ("differ")\textless 0.5 (3 trees) \\
+12. ("spam")\textless 0.5 (3 trees) \\
+13. ("dollar")\textless 1.5 (3 trees) \\
+14. ("creative")\textless 0.5 (2 trees) \\
+15. ("sharp")\textless 0.5 (1 trees) \\
+16. ("sharp")\textless 1.5 (1 trees) \\
+17. ("width")\textless 0.5 (1 trees) \\
+18. ("business")\textless 0.5 (1 trees) \\
+Accuracy \[
+\begin{bmatrix}
+  0.7594740912606341\\
+\end{bmatrix}
+\] \\
+
+
+BoostedRandomForest on spam \\
+Cross validation \[
+\begin{bmatrix}
+  0.80858469 & 0.73607889 & 0.75928074\\
+\end{bmatrix}
+\] \\
+The most common splits at the root node of the tree are:  \\
+1. ("meter")\textless 0.5 (15 trees) \\
+2. ("pain")\textless 0.5 (13 trees) \\
+3. ("volumes")\textless 0.5 (9 trees) \\
+4. ("revision")\textless 0.5 (9 trees) \\
+5. ("differ")\textless 0.5 (7 trees) \\
+6. ("drug")\textless 0.5 (6 trees) \\
+7. ("featured")\textless 0.5 (6 trees) \\
+8. ("ampersand")\textless 0.5 (3 trees) \\
+9. ("spam")\textless 0.5 (3 trees) \\
+10. ("prescription")\textless 0.5 (3 trees) \\
+11. ("message")\textless 2.5 (3 trees) \\
+12. ("memo")\textless 0.5 (3 trees) \\
+13. ("planning")\textless 0.5 (3 trees) \\
+14. ("width")\textless 0.5 (2 trees) \\
+15. ("out")\textless 2.5 (2 trees) \\
+16. ("money")\textless 0.5 (1 trees) \\
+17. ("exclamation")\textless 0.5 (1 trees) \\
+18. ("creative")\textless 0.5 (1 trees) \\
+19. ("exclamation")\textless 2.5 (1 trees) \\
+20. ("energy")\textless 0.5 (1 trees) \\
+21. ("path")\textless 0.5 (1 trees) \\
+22. ("semicolon")\textless 8.5 (1 trees) \\
+23. ("bank")\textless 0.5 (1 trees) \\
+24. ("money")\textless 2.5 (1 trees) \\
+25. ("dollar")\textless 0.5 (1 trees) \\
+26. ("semicolon")\textless 8.0 (1 trees) \\
+27. ("bank")\textless 2.5 (1 trees) \\
+28. ("other")\textless 1.5 (1 trees) \\
+Accuracy \[
+\begin{bmatrix}
+  0.758507347254447\\
+\end{bmatrix}
+\] \\
+\textbf{{The top 10 easiest samples to classify}} \\
+1. Ham: [('volumes', 1.0), ('revision', 1.0), ('meter', 1.0), ('dollar', 1.0), ('sharp', 5.0), ('exclamation', 1.0)] \\
+2. Ham: [('volumes', 1.0), ('revision', 2.0), ('meter', 1.0), ('planning', 1.0), ('sharp', 1.0), ('parenthesis', 3.0)] \\
+3. Ham: [('volumes', 1.0), ('revision', 2.0), ('meter', 1.0), ('sharp', 1.0), ('parenthesis', 2.0)] \\
+4. Ham: [('other', 1.0), ('energy', 1.0), ('volumes', 1.0), ('meter', 8.0), ('parenthesis', 1.0), ('ampersand', 2.0)] \\
+5. Ham: [('other', 1.0), ('energy', 1.0), ('volumes', 1.0), ('meter', 7.0), ('parenthesis', 1.0), ('ampersand', 2.0)] \\
+6. Ham: [('energy', 1.0), ('volumes', 1.0), ('meter', 2.0), ('dollar', 2.0), ('sharp', 3.0)] \\
+7. Ham: [('energy', 1.0), ('volumes', 1.0), ('meter', 1.0), ('dollar', 1.0), ('sharp', 2.0)] \\
+8. Ham: [('other', 1.0), ('energy', 1.0), ('volumes', 1.0), ('meter', 8.0), ('parenthesis', 1.0), ('ampersand', 2.0)] \\
+9. Ham: [('other', 1.0), ('energy', 1.0), ('volumes', 1.0), ('meter', 8.0), ('parenthesis', 1.0), ('ampersand', 2.0)] \\
+10. Ham: [('message', 3.0), ('volumes', 1.0), ('meter', 5.0), ('sharp', 4.0), ('exclamation', 3.0), ('parenthesis', 5.0)] \\
+ \\
+\textbf{{The top 10 hardest samples to classify}} \\
+1. Ham: [('volumes', 1.0), ('revision', 1.0), ('meter', 1.0), ('dollar', 1.0), ('sharp', 5.0), ('exclamation', 1.0)] \\
+2. Spam: [('semicolon', 1.0), ('parenthesis', 1.0), ('ampersand', 1.0)] \\
+3. Spam: [('parenthesis', 1.0), ('ampersand', 1.0)] \\
+4. Spam: [('out', 1.0), ('semicolon', 6.0), ('parenthesis', 3.0), ('square\_bracket', 1.0), ('ampersand', 2.0)] \\
+5. Spam: [('sharp', 2.0), ('parenthesis', 5.0)] \\
+6. Ham: [('money', 1.0), ('dollar', 12.0), ('sharp', 1.0), ('exclamation', 16.0), ('parenthesis', 5.0)] \\
+7. Spam: [('semicolon', 1.0), ('sharp', 1.0), ('ampersand', 1.0)] \\
+8. Spam: [('sharp', 1.0), ('ampersand', 2.0)] \\
+9. Spam: [('sharp', 1.0), ('parenthesis', 1.0)] \\
+10. Spam: [('other', 1.0), ('message', 1.0), ('sharp', 1.0), ('parenthesis', 1.0)] \\
+
+Process finished with exit code 0

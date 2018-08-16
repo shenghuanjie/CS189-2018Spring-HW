@@ -1,0 +1,199 @@
+train_linear finishes in 34.232s
+train_linear finishes in 21.761s
+train_linear finishes in 17.482s
+
+
+Epoch: 0001 cost= 176.475031026 $\|w-w_{true}\|^2 = 65.601266212$ \par
+Epoch: 0002 cost= 103.951681646 $\|w-w_{true}\|^2 = 34.170639800$ \par
+Epoch: 0003 cost= 51.933814780 $\|w-w_{true}\|^2 = 14.881957584$ \par
+Epoch: 0004 cost= 23.555888176 $\|w-w_{true}\|^2 = 5.730799898$ \par
+Epoch: 0005 cost= 11.350280762 $\|w-w_{true}\|^2 = 2.105033012$ \par
+Epoch: 0006 cost= 6.853173089 $\|w-w_{true}\|^2 = 0.783763169$ \par
+Epoch: 0007 cost= 5.303149267 $\|w-w_{true}\|^2 = 0.308513649$ \par
+Epoch: 0008 cost= 4.778555353 $\|w-w_{true}\|^2 = 0.135571334$ \par
+Epoch: 0009 cost= 4.604046047 $\|w-w_{true}\|^2 = 0.071969237$ \par
+Epoch: 0010 cost= 4.548503510 $\|w-w_{true}\|^2 = 0.048356726$ \par
+Epoch: 0011 cost= 4.532444425 $\|w-w_{true}\|^2 = 0.039451412$ \par
+Epoch: 0012 cost= 4.528880044 $\|w-w_{true}\|^2 = 0.036029853$ \par
+Epoch: 0013 cost= 4.529018656 $\|w-w_{true}\|^2 = 0.034724194$ \par
+Epoch: 0014 cost= 4.530174359 $\|w-w_{true}\|^2 = 0.034278651$ \par
+Epoch: 0015 cost= 4.531587517 $\|w-w_{true}\|^2 = 0.034201705$ \par
+Epoch: 0016 cost= 4.533060205 $\|w-w_{true}\|^2 = 0.034288427$ \par
+Epoch: 0017 cost= 4.534545171 $\|w-w_{true}\|^2 = 0.034449246$ \par
+Epoch: 0018 cost= 4.536031572 $\|w-w_{true}\|^2 = 0.034644697$ \par
+Epoch: 0019 cost= 4.537517444 $\|w-w_{true}\|^2 = 0.034857193$ \par
+Epoch: 0020 cost= 4.539001604 $\|w-w_{true}\|^2 = 0.035079454$ \par
+Epoch: 0021 cost= 4.540484730 $\|w-w_{true}\|^2 = 0.035308480$ \par
+Epoch: 0022 cost= 4.541966403 $\|w-w_{true}\|^2 = 0.035543212$ \par
+Epoch: 0023 cost= 4.543446632 $\|w-w_{true}\|^2 = 0.035782859$ \par
+Epoch: 0024 cost= 4.544925078 $\|w-w_{true}\|^2 = 0.036027385$ \par
+Epoch: 0025 cost= 4.546401143 $\|w-w_{true}\|^2 = 0.036276613$ \par
+Epoch: 0026 cost= 4.547874431 $\|w-w_{true}\|^2 = 0.036530100$ \par
+Epoch: 0027 cost= 4.549344301 $\|w-w_{true}\|^2 = 0.036787879$ \par
+Epoch: 0028 cost= 4.550809868 $\|w-w_{true}\|^2 = 0.037049667$ \par
+Epoch: 0029 cost= 4.552270476 $\|w-w_{true}\|^2 = 0.037315199$ \par
+Epoch: 0030 cost= 4.553724869 $\|w-w_{true}\|^2 = 0.037584206$ \par
+Epoch: 0031 cost= 4.555172225 $\|w-w_{true}\|^2 = 0.037856620$ \par
+Epoch: 0032 cost= 4.556611653 $\|w-w_{true}\|^2 = 0.038131914$ \par
+Epoch: 0033 cost= 4.558041875 $\|w-w_{true}\|^2 = 0.038409819$ \par
+Epoch: 0034 cost= 4.559461772 $\|w-w_{true}\|^2 = 0.038690132$ \par
+Epoch: 0035 cost= 4.560870107 $\|w-w_{true}\|^2 = 0.038972552$ \par
+Epoch: 0036 cost= 4.562265992 $\|w-w_{true}\|^2 = 0.039256616$ \par
+Epoch: 0037 cost= 4.563647985 $\|w-w_{true}\|^2 = 0.039542303$ \par
+Epoch: 0038 cost= 4.565014970 $\|w-w_{true}\|^2 = 0.039828978$ \par
+Epoch: 0039 cost= 4.566365794 $\|w-w_{true}\|^2 = 0.040116413$ \par
+Epoch: 0040 cost= 4.567699540 $\|w-w_{true}\|^2 = 0.040404214$ \par
+Epoch: 0041 cost= 4.569014974 $\|w-w_{true}\|^2 = 0.040692077$ \par
+Epoch: 0042 cost= 4.570310787 $\|w-w_{true}\|^2 = 0.040979781$ \par
+Epoch: 0043 cost= 4.571586100 $\|w-w_{true}\|^2 = 0.041266884$ \par
+Epoch: 0044 cost= 4.572840385 $\|w-w_{true}\|^2 = 0.041552981$ \par
+Epoch: 0045 cost= 4.574071900 $\|w-w_{true}\|^2 = 0.041837775$ \par
+Epoch: 0046 cost= 4.575280428 $\|w-w_{true}\|^2 = 0.042121047$ \par
+Epoch: 0047 cost= 4.576464470 $\|w-w_{true}\|^2 = 0.042402396$ \par
+Epoch: 0048 cost= 4.577623928 $\|w-w_{true}\|^2 = 0.042681493$ \par
+Epoch: 0049 cost= 4.578757974 $\|w-w_{true}\|^2 = 0.042958011$ \par
+Epoch: 0050 cost= 4.579865591 $\|w-w_{true}\|^2 = 0.043231635$ \par
+Epoch: 0051 cost= 4.580946636 $\|w-w_{true}\|^2 = 0.043502063$ \par
+Epoch: 0052 cost= 4.582000383 $\|w-w_{true}\|^2 = 0.043769053$ \par
+Epoch: 0053 cost= 4.583026516 $\|w-w_{true}\|^2 = 0.044032195$ \par
+Epoch: 0054 cost= 4.584024553 $\|w-w_{true}\|^2 = 0.044291321$ \par
+Epoch: 0055 cost= 4.584994626 $\|w-w_{true}\|^2 = 0.044546112$ \par
+Epoch: 0056 cost= 4.585936034 $\|w-w_{true}\|^2 = 0.044796378$ \par
+Epoch: 0057 cost= 4.586849050 $\|w-w_{true}\|^2 = 0.045041798$ \par
+Epoch: 0058 cost= 4.587733352 $\|w-w_{true}\|^2 = 0.045282368$ \par
+Epoch: 0059 cost= 4.588589136 $\|w-w_{true}\|^2 = 0.045517536$ \par
+Epoch: 0060 cost= 4.589416488 $\|w-w_{true}\|^2 = 0.045747282$ \par
+Epoch: 0061 cost= 4.590215266 $\|w-w_{true}\|^2 = 0.045971696$ \par
+Epoch: 0062 cost= 4.590986152 $\|w-w_{true}\|^2 = 0.046190227$ \par
+Epoch: 0063 cost= 4.591729073 $\|w-w_{true}\|^2 = 0.046402930$ \par
+Epoch: 0064 cost= 4.592444432 $\|w-w_{true}\|^2 = 0.046609749$ \par
+Epoch: 0065 cost= 4.593132591 $\|w-w_{true}\|^2 = 0.046810466$ \par
+Epoch: 0066 cost= 4.593794191 $\|w-w_{true}\|^2 = 0.047005180$ \par
+Epoch: 0067 cost= 4.594429219 $\|w-w_{true}\|^2 = 0.047193719$ \par
+Epoch: 0068 cost= 4.595038644 $\|w-w_{true}\|^2 = 0.047376018$ \par
+Epoch: 0069 cost= 4.595622845 $\|w-w_{true}\|^2 = 0.047552205$ \par
+Epoch: 0070 cost= 4.596182152 $\|w-w_{true}\|^2 = 0.047722237$ \par
+Epoch: 0071 cost= 4.596717564 $\|w-w_{true}\|^2 = 0.047886134$ \par
+Epoch: 0072 cost= 4.597229449 $\|w-w_{true}\|^2 = 0.048043941$ \par
+Epoch: 0073 cost= 4.597718751 $\|w-w_{true}\|^2 = 0.048195661$ \par
+Epoch: 0074 cost= 4.598185778 $\|w-w_{true}\|^2 = 0.048341436$ \par
+Epoch: 0075 cost= 4.598631386 $\|w-w_{true}\|^2 = 0.048481327$ \par
+Epoch: 0076 cost= 4.599056172 $\|w-w_{true}\|^2 = 0.048615482$ \par
+Epoch: 0077 cost= 4.599460562 $\|w-w_{true}\|^2 = 0.048744025$ \par
+Epoch: 0078 cost= 4.599846033 $\|w-w_{true}\|^2 = 0.048867088$ \par
+Epoch: 0079 cost= 4.600212614 $\|w-w_{true}\|^2 = 0.048984539$ \par
+Epoch: 0080 cost= 4.600561170 $\|w-w_{true}\|^2 = 0.049096832$ \par
+Epoch: 0081 cost= 4.600892373 $\|w-w_{true}\|^2 = 0.049204037$ \par
+Epoch: 0082 cost= 4.601207030 $\|w-w_{true}\|^2 = 0.049306219$ \par
+Epoch: 0083 cost= 4.601505705 $\|w-w_{true}\|^2 = 0.049403621$ \par
+Epoch: 0084 cost= 4.601789153 $\|w-w_{true}\|^2 = 0.049496384$ \par
+Epoch: 0085 cost= 4.602057652 $\|w-w_{true}\|^2 = 0.049584527$ \par
+Epoch: 0086 cost= 4.602312398 $\|w-w_{true}\|^2 = 0.049668484$ \par
+Epoch: 0087 cost= 4.602553570 $\|w-w_{true}\|^2 = 0.049748116$ \par
+Epoch: 0088 cost= 4.602782011 $\|w-w_{true}\|^2 = 0.049823787$ \par
+Epoch: 0089 cost= 4.602998237 $\|w-w_{true}\|^2 = 0.049895569$ \par
+Epoch: 0090 cost= 4.603202883 $\|w-w_{true}\|^2 = 0.049963744$ \par
+Epoch: 0091 cost= 4.603396380 $\|w-w_{true}\|^2 = 0.050028255$ \par
+Epoch: 0092 cost= 4.603579076 $\|w-w_{true}\|^2 = 0.050089449$ \par
+Epoch: 0093 cost= 4.603752176 $\|w-w_{true}\|^2 = 0.050147334$ \par
+Epoch: 0094 cost= 4.603915564 $\|w-w_{true}\|^2 = 0.050202154$ \par
+Epoch: 0095 cost= 4.604069781 $\|w-w_{true}\|^2 = 0.050254091$ \par
+Epoch: 0096 cost= 4.604215411 $\|w-w_{true}\|^2 = 0.050303011$ \par
+Epoch: 0097 cost= 4.604352824 $\|w-w_{true}\|^2 = 0.050349316$ \par
+Epoch: 0098 cost= 4.604482476 $\|w-w_{true}\|^2 = 0.050393141$ \par
+Epoch: 0099 cost= 4.604604884 $\|w-w_{true}\|^2 = 0.050434444$ \par
+Epoch: 0100 cost= 4.604720350 $\|w-w_{true}\|^2 = 0.050473477$ \par
+TLS through SVD error: |w-w_true|^2 = 0.0003320206394634698
+
+
+
+
+TLS through SVD error: |w-w_true|^2 = 0.0003320206394634698
+SGD errors with different learning rates and batch sizes:
+\begin{tabu} to 1.0\textwidth {  |X[c] |X[c] |X[c] |X[c]  | }
+\hline
+         & 0.001   & 0.01    & 1       \\   
+\hline
+      10 & 0.0405592724343 & 0.0314766182541 & 1.57904431879  \\     
+\hline
+     100 & 0.222813755186 & 0.0408178686562 & 0.0314853998259  \\     
+\hline
+    1000 & 29862.1864071 & 425.199988581 & 60.3934059701  \\     
+\hline
+\end{tabu}\par
+\hfill \par
+
+
+
+
+
+
+
+
+
+
+TLS through SVD error: |w-w_true|^2 = 0.0003320206394634698
+SGD errors with different learning rates and batch sizes:
+\begin{tabu} to 1.0\textwidth {  |X[c] |X[c] |X[c] |X[c]  | }
+\hline
+         & 0.001   & 0.01    & 1       \\   
+\hline
+      10 & 0.0351760103916 & 0.0328918242593 & 31.3529622809  \\     
+\hline
+     100 & 0.140548361485 & 0.050749825175 & 0.0539203335621  \\     
+\hline
+    1000 & 113.793678132 & 4.16690617106 & 0.437778843715  \\     
+\hline
+\end{tabu}\par
+\hfill \par
+
+
+
+
+
+
+
+
+
+
+
+Required iterations:  54
+Final average error:  \[
+\begin{bmatrix}
+  4.55458688852e-11\\
+\end{bmatrix}
+\]\par
+C:\Program Files\Python36\lib\site-packages\numpy\linalg\linalg.py:2197: RuntimeWarning: overflow encountered in multiply
+  s = (x.conj() * x).real
+D:/360Sync/OneDrive/Berkeley/MachineLearning/Spring2018/HW/HW08/hw08-data/SGDtheory/starter_P1_SGDtheory.py:70: RuntimeWarning: invalid value encountered in subtract
+  w_guesses[j] = w_guesses[j] - step_size_func(it) * sample_gradient
+Required iterations, lr = 0.0001:  5000
+Final average error:  \[
+\begin{bmatrix}
+  0.136258451451\\
+\end{bmatrix}
+\]\par
+Required iterations, lr = 0.00001:  5000
+Final average error:  \[
+\begin{bmatrix}
+  0.0260882785166\\
+\end{bmatrix}
+\]\par
+Required iterations, lr = 0.000001:  5000
+Final average error:  \[
+\begin{bmatrix}
+  0.00872703914258\\
+\end{bmatrix}
+\]\par
+Required iterations, GD:  175
+Final average error:  \[
+\begin{bmatrix}
+  nan\\
+\end{bmatrix}
+\]\par
+Required iterations, variable lr:  5000
+Average error with decreasing lr: \[
+\begin{bmatrix}
+  0.00771728332214\\
+\end{bmatrix}
+\]\par
